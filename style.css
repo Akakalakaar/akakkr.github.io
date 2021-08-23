@@ -1,0 +1,230 @@
+@import 'utility.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height:auto;
+    
+}
+header{
+    background-color: var(--dark);
+    /* height: 800px; */
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 70% 87% , 0 100% );
+
+}
+
+.container{
+    max-width:1152px ;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+
+
+
+header nav .left a:hover{
+    color:var(--primary)
+}
+header nav {
+    padding: 2rem 0;
+}
+header nav .brand{
+    margin-right: 3rem;
+
+}
+.hero .right{
+    color:var(--pure);
+}
+.hero.right a:link{
+    color:var(--dark);
+    text-decoration: none;
+}
+.hero .right h6{
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 2.6rem;
+    color:var(--primary);
+    margin-bottom: .5rem;
+}
+.hero{
+    padding: 3rem 0;
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color:var(--primary)
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    font-family: 'Source Sans Pro';
+    font-size: 150%;
+}
+
+.hero img{
+    position: relative;
+    right:50px;
+    width: 550px;
+}
+    
+.hero .right{
+    margin-top:-7rem;
+}
+
+/* head khapam */
+
+section{
+    padding : 6rem 0;
+}
+
+.about-me-img{
+
+    height: 500px;
+}
+
+section h1 span{
+    
+     color:var(--primary);
+}
+section h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section h3{
+    font-size:1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.about p{
+    font-family:'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: .6 rem;
+
+}
+section.services{
+
+    height:700px;
+    background-color: var(--dark);
+    background-image: url('banner-bg.jpg');
+    
+    background-size: cover;
+      
+}
+
+#head{
+    color:var(--primary);
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+   }
+
+#para{
+    position: relative;
+    top:-40px;
+    color: #898989;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content{
+    position: relative;
+    top:-20px;
+}
+.main{
+    color: var(--light);
+    text-align: center;
+    
+    padding:7%;
+}
+.main h2{
+    margin-bottom: 20px;
+    font-family: 'Source Sans pro';
+    font-weight: 800px;
+}
+.main p{
+    font-family: 'Source Sans pro';
+    line-height:1.4;
+}
+
+#me{
+    background-color: #16E0BD;
+    font-family: 'Source Sans Pro';
+    font-size: 150%;
+    padding: 20px;
+}
+
+.outro{
+    background-color: var(--dark);
+    
+}
+
+#mail{
+    position: relative;
+    top:-50px;
+    left:38%;
+    color: #3DCFD3;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    padding: 2px;
+    /* border:2px solid red; */
+
+}
+
+.mail.social{
+    align-self: flex-end;
+}
+
+.social a{
+    
+    margin-right: 3rem;
+}
+
+.services.social a:hover{
+   background-color: #3DCFD3;
+   border-radius: 50%;
+
+}
